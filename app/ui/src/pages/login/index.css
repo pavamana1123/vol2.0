@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-feilds {
+    position: relative;
+    top: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid #aaa;
+    font-size: 1vw;
+    padding: 0.7vw;
+    border-radius: .2vw;
+    margin-bottom: 0.5vw;
+    width: 25vw;
+}
+
+button {
+    font-size: 1vw;
+    padding: .7vw;
+}
+
+button:hover{
+    background-color: var(--barHover);
+}

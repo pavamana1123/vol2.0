@@ -2,6 +2,7 @@
 
 :root {
   --bar: #1976d2;
+  --barHover: #478dd2;
   --bg: #e7ebf0;
   --secondaryBg: #1f2c34;
   --toastBg: #6d6c6c71;
@@ -15,12 +16,11 @@ body {
 }
 
 button {
-  background-color: var(--green);
+  background-color: var(--bar);
   color: white;
   outline: none;
   border: none;
   cursor: pointer;
-  font-size: 5vw;
   padding: 2%;
   height: fit-content;
   transition: background-color 0.5s;
